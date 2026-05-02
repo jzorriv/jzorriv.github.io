@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="EduSearch CT y CEVV">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020a12"/>
+      <stop offset="1" stop-color="#0a2744"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1a5a8a"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" rx="56" fill="url(#bg)"/>
+  <circle cx="240" cy="140" r="210" fill="#22d3ee" opacity="0.12"/>
+  <circle cx="1040" cy="620" r="260" fill="#f43f5e" opacity="0.08"/>
+  <rect x="90" y="90" width="1020" height="540" rx="40" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.14)" filter="url(#shadow)"/>
+  <rect x="120" y="120" width="960" height="92" rx="22" fill="rgba(255,255,255,0.10)"/>
+  <rect x="150" y="144" width="520" height="44" rx="22" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.20)"/>
+  <circle cx="190" cy="166" r="14" fill="#22d3ee" opacity="0.95"/>
+  <rect x="220" y="158" width="360" height="16" rx="8" fill="rgba(255,255,255,0.35)"/>
+  <rect x="690" y="144" width="150" height="44" rx="22" fill="url(#accent)" opacity="0.95"/>
+  <text x="720" y="174" font-family="Outfit,system-ui,sans-serif" font-size="22" font-weight="900" fill="#052238">Buscar</text>
+  <text x="150" y="270" font-family="Outfit,system-ui,sans-serif" font-size="40" font-weight="900" fill="#22d3ee">EduSearch</text>
+  <text x="360" y="270" font-family="DM Sans,system-ui,sans-serif" font-size="26" font-weight="700" fill="rgba(255,255,255,0.82)">Documentos " Normativas " Materiales</text>
+  <g opacity="0.95">
+    <rect x="120" y="310" width="960" height="94" rx="24" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/>
+    <rect x="150" y="342" width="640" height="16" rx="8" fill="rgba(255,255,255,0.32)"/>
+    <rect x="150" y="368" width="460" height="14" rx="7" fill="rgba(255,255,255,0.20)"/>
+    <rect x="120" y="422" width="960" height="94" rx="24" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/>
+    <rect x="150" y="454" width="580" height="16" rx="8" fill="rgba(255,255,255,0.32)"/>
+    <rect x="150" y="480" width="520" height="14" rx="7" fill="rgba(255,255,255,0.20)"/>
+    <rect x="120" y="534" width="960" height="84" rx="24" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/>
+    <rect x="150" y="564" width="500" height="14" rx="7" fill="rgba(255,255,255,0.26)"/>
+  </g>
+</svg>

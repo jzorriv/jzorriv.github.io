@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Julio C�sar Zorrilla  Educaci�n, tecnolog�a e innovaci�n">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#051525"/>
+      <stop offset="0.55" stop-color="#0a2744"/>
+      <stop offset="1" stop-color="#0c4a6e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#f43f5e"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" rx="48" fill="url(#bg)"/>
+  <circle cx="1050" cy="120" r="220" fill="#22d3ee" opacity="0.14"/>
+  <circle cx="140" cy="560" r="260" fill="#f43f5e" opacity="0.10"/>
+
+  <rect x="64" y="64" width="1072" height="502" rx="40" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" filter="url(#shadow)"/>
+
+  <rect x="96" y="98" width="380" height="120" rx="28" fill="rgba(255,255,255,0.92)"/>
+  <image href="logo-jzinfo.png" x="112" y="112" width="348" height="92" preserveAspectRatio="xMidYMid meet"/>
+
+  <text x="96" y="290" font-family="Outfit,system-ui,sans-serif" font-size="52" font-weight="900" fill="#ffffff">Julio C�sar Zorrilla</text>
+  <text x="96" y="342" font-family="DM Sans,system-ui,sans-serif" font-size="26" font-weight="700" fill="rgba(255,255,255,0.78)">Educaci�n por competencias � Ingenier�a de software � Soluciones digitales</text>
+
+  <rect x="96" y="392" width="560" height="12" rx="6" fill="url(#accent)" opacity="0.95"/>
+
+  <g font-family="DM Sans,system-ui,sans-serif" font-size="22" font-weight="700" fill="rgba(255,255,255,0.86)">
+    <text x="96" y="452">Villarrica, Paraguay</text>
+    <text x="96" y="492">Software � Consultor�a � Capacitaci�n</text>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-labelledby="title desc">
+  <title id="title">Avatar profesional ilustrativo</title>
+  <desc id="desc">Figura estilizada de busto con fondo circular en tonos azules.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d3b66"/>
+      <stop offset="100%" style="stop-color:#1e5f8a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#38bdf8"/>
+      <stop offset="100%" style="stop-color:#e63946"/>
+    </linearGradient>
+  </defs>
+  <circle cx="160" cy="160" r="158" fill="url(#bg)"/>
+  <circle cx="160" cy="160" r="140" fill="none" stroke="url(#accent)" stroke-width="4" opacity="0.55"/>
+  <!-- Silueta tipo busto -->
+  <ellipse cx="160" cy="200" rx="72" ry="88" fill="#e8f4fc" opacity="0.95"/>
+  <ellipse cx="160" cy="128" rx="56" ry="64" fill="#f8fafc"/>
+  <ellipse cx="160" cy="118" rx="48" ry="52" fill="#cbd5e1"/>
+  <!-- Cuello -->
+  <rect x="132" y="168" width="56" height="40" rx="8" fill="#e8f4fc"/>
+  <!-- Detalle camisa -->
+  <path d="M108 230 Q160 252 212 230 L212 280 L108 280 Z" fill="#0d3b66"/>
+  <path d="M160 210 L180 230 L160 248 L140 230 Z" fill="url(#accent)" opacity="0.85"/>
+  <!-- Laptop / libro abstracto (tecnología + educación) -->
+  <rect x="118" y="232" width="84" height="52" rx="6" fill="#1e293b" opacity="0.9"/>
+  <rect x="124" y="238" width="72" height="36" rx="2" fill="#38bdf8" opacity="0.35"/>
+  <line x1="130" y1="248" x2="190" y2="248" stroke="#f8fafc" stroke-width="2" opacity="0.5"/>
+  <line x1="130" y1="258" x2="175" y2="258" stroke="#f8fafc" stroke-width="2" opacity="0.35"/>
+</svg>

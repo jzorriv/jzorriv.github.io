@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Control de marcaciones">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a2744"/>
+      <stop offset="1" stop-color="#1e5f8a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" rx="56" fill="url(#bg)"/>
+  <circle cx="980" cy="120" r="240" fill="#a78bfa" opacity="0.14"/>
+  <circle cx="240" cy="660" r="280" fill="#22d3ee" opacity="0.10"/>
+  <rect x="90" y="90" width="1020" height="540" rx="40" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.14)" filter="url(#shadow)"/>
+  <rect x="120" y="120" width="960" height="70" rx="20" fill="rgba(255,255,255,0.10)"/>
+  <rect x="120" y="120" width="360" height="70" rx="20" fill="url(#accent)" opacity="0.95"/>
+  <text x="150" y="165" font-family="Outfit,system-ui,sans-serif" font-size="30" font-weight="900" fill="#0b1020">Marcaciones</text>
+  <text x="505" y="165" font-family="DM Sans,system-ui,sans-serif" font-size="24" font-weight="700" fill="rgba(255,255,255,0.82)">Asistencia " Reportes " Filtros</text>
+  <rect x="120" y="220" width="640" height="410" rx="26" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.14)"/>
+  <rect x="790" y="220" width="320" height="410" rx="26" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.14)"/>
+  <g opacity="0.92">
+    <rect x="150" y="255" width="580" height="18" rx="9" fill="rgba(255,255,255,0.34)"/>
+    <rect x="150" y="300" width="540" height="54" rx="16" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/>
+    <rect x="170" y="322" width="210" height="14" rx="7" fill="rgba(255,255,255,0.26)"/>
+    <rect x="450" y="318" width="110" height="22" rx="11" fill="#22d3ee" opacity="0.85"/>
+    <text x="470" y="335" font-family="DM Sans,system-ui,sans-serif" font-size="14" font-weight="900" fill="#052238">OK</text>
+    <rect x="150" y="370" width="540" height="54" rx="16" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/>
+    <rect x="170" y="392" width="260" height="14" rx="7" fill="rgba(255,255,255,0.26)"/>
+    <rect x="450" y="388" width="150" height="22" rx="11" fill="#f43f5e" opacity="0.85"/>
+    <text x="470" y="405" font-family="DM Sans,system-ui,sans-serif" font-size="14" font-weight="900" fill="#ffffff">TARDE</text>
+    <rect x="150" y="440" width="540" height="54" rx="16" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/>
+    <rect x="170" y="462" width="240" height="14" rx="7" fill="rgba(255,255,255,0.26)"/>
+    <rect x="450" y="458" width="170" height="22" rx="11" fill="rgba(255,255,255,0.18)"/>
+    <text x="790" y="290" font-family="Outfit,system-ui,sans-serif" font-size="22" font-weight="900" fill="rgba(255,255,255,0.88)">Resumen</text>
+    <text x="820" y="340" font-family="Outfit,system-ui,sans-serif" font-size="46" font-weight="900" fill="#a78bfa">98%</text>
+    <text x="820" y="374" font-family="DM Sans,system-ui,sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,0.78)">Asistencia</text>
+    <rect x="820" y="410" width="240" height="12" rx="6" fill="rgba(255,255,255,0.18)"/>
+    <rect x="820" y="410" width="206" height="12" rx="6" fill="#a78bfa"/>
+  </g>
+</svg>
